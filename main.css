@@ -1,0 +1,374 @@
+@charset "UTF-8";
+
+/* The typing effect */
+@-webkit-keyframes typing1 {
+  0%, 0.5436623094% { content: ""; }
+  1%, 2% { content: "H"; }
+  3%, 4% { content: "Hi"; }
+  5%, 6% { content: "Hi!"; }
+  6%, 30% { content: "Hi! "; }
+  31%, 31.5% { content: "Hi! I"; }
+  31.6%, 32.5% { content: "Hi! I'"; }
+  32.6%, 33.5% { content: "Hi! I'm"; }
+  33.6%, 34.5% { content: "Hi! I'm "; }
+  34.6%, 35.5% { content: "Hi! I'm L"; }
+  35.6%, 36.5% { content: "Hi! I'm Lu"; }
+  36.6%, 37.5% { content: "Hi! I'm Luc"; }
+  37.6%, 38.5% { content: "Hi! I'm Lucy"; }
+  38.6%, 39.5% { content: "Hi! I'm Lucy "; }
+  40%, 100% { content: "Hi! I'm Lucy "; }
+}
+
+@keyframes typing1 {
+  0%, 0.5436623094% { content: ""; }
+  1%, 2% { content: "H"; }
+  3%, 4% { content: "Hi"; }
+  5%, 6% { content: "Hi!"; }
+  6%, 30% { content: "Hi! "; }
+  31%, 31.5% { content: "Hi! I"; }
+  31.6%, 32.5% { content: "Hi! I'"; }
+  32.6%, 33.5% { content: "Hi! I'm"; }
+  33.6%, 34.5% { content: "Hi! I'm "; }
+  34.6%, 35.5% { content: "Hi! I'm L"; }
+  35.6%, 36.5% { content: "Hi! I'm Lu"; }
+  36.6%, 37.5% { content: "Hi! I'm Luc"; }
+  37.6%, 38.5% { content: "Hi! I'm Luci"; }
+  38.6%, 39.5% { content: "Hi! I'm Lucia"; }
+  39.6%, 40.5% { content: "Hi! I'm Lucia"; }
+  41%, 100% { content: "Hi! I'm Lucia "; }
+}
+
+@keyframes typing2 {
+   0%, 1.0152601626% {
+    content: "A";
+  }  1.0162601626%, 2.0315203252% {
+    content: "An";
+  }  2.0325203252%, 3.0477804878% {
+    content: "And";
+  }  3.0487804878%, 4.0640406504% {
+    content: "And ";
+  }  4.0650406504%, 5.080300813% {
+    content: "And I";
+  }  5.081300813%, 6.0965609756% {
+    content: "And I'";
+  }  6.0975609756%, 7.1128211382% {
+    content: "And I'm";
+  }  7.1138211382%, 8.1290813008% {
+    content: "And I'm ";
+  }  8.1300813008%, 9.1453414634% {
+    content: "And I'm p";
+  }
+  9.1463414634%, 10.161601626% {
+    content: "And I'm pa";
+  }
+  10.162601626%, 11.1778617886% {
+    content: "And I'm pas";
+  }
+  11.1788617886%, 12.1941219512% {
+    content: "And I'm pass";
+  }
+  12.1951219512%, 13.2103821138% {
+    content: "And I'm passi";
+  }
+  13.2113821138%, 14.2266422764% {
+    content: "And I'm passio";
+  }
+  14.2276422764%, 15.242902439% {
+    content: "And I'm passion";
+  }
+  15.243902439%, 16.2591626016% {
+    content: "And I'm passiona";
+  }
+  16.2601626016%, 17.2754227642% {
+    content: "And I'm passionat";
+  }
+  17.2764227642%, 18.2916829268% {
+    content: "And I'm passionate";
+  }
+  18.2926829268%, 19.3079430894% {
+    content: "And I'm passionate ";
+  }
+  19.3089430894%, 20.324203252% {
+    content: "And I'm passionate a";
+  }
+  20.325203252%, 21.3404634146% {
+    content: "And I'm passionate ab";
+  }
+  21.3414634146%, 22.3567235772% {
+    content: "And I'm passionate abo";
+  }
+  22.3577235772%, 23.3729837398% {
+    content: "And I'm passionate abou";
+  }
+  23.3739837398%, 24.3892439024% {
+    content: "And I'm passionate about";
+  }
+  24.3902439024%, 25.405504065% {
+    content: "And I'm passionate about ";
+  }
+  25.406504065%, 26.4217642276% {
+    content: "And I'm passionate about c";
+  }
+  26.4227642276%, 27.4380243902% {
+    content: "And I'm passionate about cy";
+  }
+  27.4390243902%, 28.4542845528% {
+    content: "And I'm passionate about cyb";
+  }
+  28.4552845528%, 29.4705447154% {
+    content: "And I'm passionate about cybe";
+  }
+  29.4715447154%, 30.486804878% {
+    content: "And I'm passionate about cyber";
+  }
+  30.487804878%, 31.5030650407% {
+    content: "And I'm passionate about cybers";
+  }
+  31.5040650407%, 32.5193252033% {
+    content: "And I'm passionate about cyberse";
+  }
+  32.5203252033%, 33.5355853659% {
+    content: "And I'm passionate about cybersec";
+  }
+  33.5365853659%, 34.5518455285% {
+    content: "And I'm passionate about cybersecu";
+  }
+  34.5528455285%, 35.5681056911% {
+    content: "And I'm passionate about cybersecur";
+  }
+  35.5691056911%, 36.5843658537% {
+    content: "And I'm passionate about cybersecuri";
+  }
+  36.5853658537%, 37.6006260163% {
+    content: "And I'm passionate about cybersecurit";
+  }
+  37.6016260163%, 38.5% {
+    content: "And I'm passionate about cybersecurity";
+  }
+  38.6016260163%, 100% {
+    content: "And I'm passionate about cybersecurity";
+  }
+}
+
+/* The terminal blink */
+
+@-webkit-keyframes beam-blink {
+  75% {
+    border-color: transparent;
+  }
+}
+@keyframes beam-blink {
+  25% {
+    border-right: 18px solid rgba(51, 255, 51, 0.75);
+  }
+}
+
+/* Normal CSS because it's needed too */
+
+html, body {
+  background-color: black;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.125), rgba(255, 255, 255, 0)), linear-gradient(to bottom, #000, #000 2px, #111 3px);
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: cover, 100% 3px;
+
+  font-family: "VT323", monospace, sans-serif;
+  color: greenyellow;
+  margin: 0;
+}
+header, main {
+  max-width: 1000px;
+/*  padding: 20px;*/
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+div, h1 {
+  margin: 25px 40px 5px 40px;
+}
+
+li {
+  margin-top: 10px;
+}
+a {
+  color: inherit;
+}
+a:link {
+  text-decoration: underline dotted green;
+}
+a:visited {
+    text-decoration: underline dotted darkturquoise;
+} 
+a:hover {
+  color: lightseagreen;
+  text-decoration: underline dotted inherit;
+}
+b {
+  color: floralwhite;
+}
+
+header {
+  text-align: left;
+  flex-direction: column;
+  flex-wrap: initial;
+  font-size: calc(10px + 1vw);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+header h1 {
+  -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+} 
+#introname, #introabout {
+  content: " ";
+}
+#introname::after, #introabout::after {
+  content: "​";
+  padding-right: 3px;
+  padding-right: calc(3px + 0.1vw);
+  border-right: 18px solid rgba(51, 255, 51, 0.75);
+  border-color: transparent;
+  text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
+  white-space: pre-wrap;
+
+  animation: 
+    typing1 2.5s steps(60, end),
+    beam-blink 1s steps(60, end);
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1, 4;
+}
+
+#introabout::after {
+  font-size: calc(20px + 1vw);
+  animation: 
+    typing2 2s steps(60, end),
+    beam-blink 1s infinite;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+}
+
+#pastwork {
+  max-width: 500px;
+}
+#pastwork ul li {
+  list-style: none;
+}
+#pastwork ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  font-weight: bold; 
+  display: inline-block;
+  color: turquoise;
+  margin-left: -1em;
+  width: 1em;
+}
+
+.tagscontainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.tagscontainer div {
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  width: max-content;
+  margin: 5px 5px 0 0 ;
+}
+.redt {
+  background-color: #da2c4333;
+  border-bottom: 2px solid #d0312d44;
+}
+.bluet {
+/*  background-color: #0492c266; #990f0266 #01606466 #fa812822 #6e142355 #ed701422*/
+  background-color: #9e86c822;
+  border-bottom: 2px solid #3994bc33;
+}
+.forenset {
+  background-color: #b4d27322;
+  border-bottom: 2px solid #3cb04244;
+}
+.webt {
+  background-color: #ffd00022;
+  border-bottom: 2px solid #ffee9947;
+}
+
+#studies {
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+#studies ul li:before {
+  content: '\2713';
+  display: inline-block;
+  color: turquoise;
+  padding: 0 6px 0 0;
+  margin-left: -1em;
+  width: 1em;
+}
+
+#studies ul li {
+  list-style-type: none;
+  font-size: 1em;
+}
+
+#certs li::before {
+  content: '\25C6' !important;
+}
+
+#unistuff li::before {
+  font-weight: bold;
+}
+
+#aboutme {
+  margin-top: 0;
+}
+
+#extrainfo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+
+#ctfs {
+  display: none;
+}
+
+#paucast {
+  margin: 0;
+}
+#paucast iframe {
+  margin: 20px 0 20px 0;
+}
+
+footer {
+  position: sticky;
+  bottom: -2px;
+  padding: 15px;
+  background-color: #000000DD;
+  text-align: center;
+  border-top: greenyellow dashed;
+}
+
+/* Responsive problems */
+
+@media screen and (max-width: 575px) {
+  ul {
+    padding-inline-start: 20px;
+  }
+
+  #pastwork {
+    margin-top: 5px;
+  }
+
+  footer {
+    position: fixed;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
