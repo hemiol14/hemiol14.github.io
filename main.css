@@ -177,13 +177,17 @@ html, body {
   margin: 0;
 }
 header, main {
-  max-width: 1000px;
+  max-width: 1250px;
 /*  padding: 20px;*/
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: left;
   flex-wrap: wrap;
+}
+
+main {
+  justify-content: center;
 }
 
 div, h1 {
@@ -217,8 +221,7 @@ header {
   font-size: calc(10px + 1vw);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding: 20px 0 10px 10px;
 }
 header h1 {
   -webkit-backface-visibility: hidden;
@@ -249,11 +252,11 @@ header h1 {
     typing2 2s steps(60, end),
     beam-blink 1s infinite;
   animation-fill-mode: forwards;
-  animation-delay: 4s;
+  animation-delay: 3s;
 }
 
 #pastwork {
-  max-width: 500px;
+  max-width: 600px;
 }
 #pastwork ul li {
   list-style: none;
@@ -270,7 +273,7 @@ header h1 {
 .tagscontainer {
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 10px 0 20px 0;
 }
 .tagscontainer div {
   padding: 5px;
@@ -298,7 +301,7 @@ header h1 {
 }
 
 #studies {
-  max-width: 300px;
+  max-width: 500px;
   margin-right: 20px;
 }
 
